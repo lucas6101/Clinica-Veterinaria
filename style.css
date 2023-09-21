@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-color: rgb(78, 73, 73);
+}
+
+a{
+    text-decoration:none;
+    color: beige;
+}
+
+a:hover{
+    font-size: 26px;
+    color: rgb(243, 243, 178);
+    transition: 0.5s ease-in-out ;
+}
+
+header{
+    width: 100vw;
+}
+
+header img {
+    width: 6%;
+    height: 117px;
+    border-radius: 27px;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+
+main{
+    background-color: rgb(78, 73, 73);
+    height: 100vh;
+    width: 507px;
+    margin-top: 66px;
+    line-height: 79px;
+    font-size: 25px;
+}
+
+.corpo{
+    display: flex;
+}
+
+.content{
+    margin-left: 170px;
+}
+.content h1 {
+    margin-bottom: 30px;
+color: rgb(199, 199, 221);
+    display: block;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(107, 107, 107);
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p {
+    margin-top: 30px;
+}
+
+img:hover{
+    opacity:0.5;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+table{
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 23px 1px 28px -17px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 23px 1px 28px -17px rgba(0,0,0,0);
+}
+
+
+table thead th {
+    background-color: rgb(68, 117, 114);
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgb(111, 149, 172);
+}
+ 
+table tbody tr:hover td{
+    background-color: rgb(58, 129, 122);
+cursor: pointer;
+}
